@@ -263,7 +263,6 @@ static NSString * headReuseIdentifier = @"headReuseIdentifier";
     
     dispatch_async(dispatch_get_main_queue(), ^{
         
-//        AppDelegate * appdelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
         [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:self animated:NO completion:nil];
         
     });

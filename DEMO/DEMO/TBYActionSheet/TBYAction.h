@@ -38,27 +38,27 @@ typedef void(^handeler)(TBYAction * action);
 /**
  文字颜色
  */
-@property (nonatomic, strong) UIColor * textColor UI_APPEARANCE_SELECTOR;
+@property (nonatomic, strong) UIColor * textColor;
 
 /**
  文字字体
  */
-@property (nonatomic, strong) UIFont * textFont UI_APPEARANCE_SELECTOR ;
+@property (nonatomic, strong) UIFont * textFont;
 
 /**
- 左侧头像
+ 左侧图片
  */
 @property (nonatomic, strong) NSString * leftImageStr;
 
 /**
- 右侧头像
+ 右侧图片
  */
 @property (nonatomic, strong) NSString * rightIamgeStr;
 
 /**
  对齐方式
  */
-@property (nonatomic, assign) NSTextAlignment textAlign UI_APPEARANCE_SELECTOR;
+@property (nonatomic, assign) NSTextAlignment textAlign;
 
 
 @property (nonatomic, copy) handeler handelerBlock;

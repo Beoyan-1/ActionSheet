@@ -102,6 +102,8 @@
 		E21D9DBE1F87CA9800F86B10 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		E21D9DBF1F87CA9800F86B10 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		E21D9DC01F87CA9800F86B10 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		E2F6A2D21F889621000F8842 /* cloud_creat_folder_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud_creat_folder_icon@2x.png"; sourceTree = "<group>"; };
+		E2F6A2D31F889621000F8842 /* cloud_creat_folder_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud_creat_folder_icon@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,8 @@
 				E21D9D5A1F87BF2200F86B10 /* AppDelegate.m */,
 				E21D9D5C1F87BF2200F86B10 /* ViewController.h */,
 				E21D9D5D1F87BF2200F86B10 /* ViewController.m */,
+				E2F6A2D21F889621000F8842 /* cloud_creat_folder_icon@2x.png */,
+				E2F6A2D31F889621000F8842 /* cloud_creat_folder_icon@3x.png */,
 				E21D9D5F1F87BF2200F86B10 /* Main.storyboard */,
 				E21D9DA61F87CA9800F86B10 /* Masonry */,
 				E21D9D961F87C88E00F86B10 /* TBYActionSheet */,

@@ -31,6 +31,26 @@
         NSLog(@"点击了action1");
     }];
     
+    TBYAction * action4 = [TBYAction actionWithTitle:@"创建" tbyStyle:TBYActionStyleDefault handler:^(TBYAction *action) {
+        
+        NSLog(@"点击了创建");
+    }];
+    
+    action4.leftImageStr = @"1234";
+    
+    action4.textColor = [UIColor cyanColor];
+    
+    action4.textFont = [UIFont systemFontOfSize:25];
+    
+    action4.textAlign = NSTextAlignmentLeft;
+    
+    
+    TBYAction * action3 = [TBYAction actionWithTitle:@"删除" tbyStyle:TBYActionStyleDestructive handler:^(TBYAction *action) {
+        
+        NSLog(@"点击了删除");
+    }];
+    
+    
     TBYAction * action2 = [TBYAction actionWithTitle:@"取消" tbyStyle:TBYActionStyleCancel handler:^(TBYAction *action) {
         
         NSLog(@"点击了取消");
@@ -39,7 +59,8 @@
     
     [actonSheet1 addAction:action1];
     [actonSheet1 addAction:action2];
-    
+    [actonSheet1 addAction:action4];
+    [actonSheet1 addAction:action3];
     [actonSheet1 show];
     
 }

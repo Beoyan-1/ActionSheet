@@ -31,11 +31,6 @@
 
 @implementation TBYActionCell
 
-
-
-
-
-
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
@@ -126,8 +121,9 @@
     self.titleLabel.text = action.titleStr;
     
     if (action.leftImageStr) {
-        
+        self.leftImageView.hidden = NO;
         self.leftImageView.image = [UIImage imageNamed:action.leftImageStr];
+        
     }else{
         self.leftImageView.hidden = YES;
     }
@@ -135,6 +131,7 @@
     if (action.rightIamgeStr) {
         
         self.rightImageView.image = [UIImage imageNamed:action.rightIamgeStr];
+        self.rightImageView.hidden = NO;
         
     }else{
         self.rightImageView.hidden = YES;
@@ -250,7 +247,6 @@
     if (!_backView) {
         _backView = [[UIView alloc] init];
         _backView.backgroundColor = [UIColor whiteColor];
-//        _backView.alpha = 0.5;
     }
     return _backView;
 }
